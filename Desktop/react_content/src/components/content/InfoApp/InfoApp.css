@@ -1,0 +1,26 @@
+.info {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .white-text {
+    color: #ffffff;
+  }
+  
+  .img_con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imager {
+    margin: 10px;
+  }
+  
+  .imager img {
+    max-width: 250px;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+  }
+  

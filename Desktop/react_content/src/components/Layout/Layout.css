@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(50, 0, 0, 0.304);
+}
+.lay{
+    width: 100%;
+    min-height: 800px;
+    background: saddlebrown;
+    background-color: aquamarine;
+}
+.nav{
+    color: blueviolet;
+    margin: 5px;
+}
+.myStyle {
+    
+    color: red;
+}
+
