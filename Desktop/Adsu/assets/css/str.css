@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.footer {
+    margin-top: 290px;
+    width: 100%;
+    height: 513px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #101828;
+    padding: 80px 112px;
+    overflow: hidden;
+
+}
+
+.footer__grid-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 5 1fr);
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: red;
+}
+
+.section__overly {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #273c66;
+    overflow: hidden;
+}
+
+/* .footer_section:nth-of-type(odd) {
+    margin-bottom: 26px;
+} */
+.footer_section:last-of-type {
+    margin-top: 26px;
+}
+
+.footer__section-logo {
+    width: 175px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.footer__section-text {
+    width: 223px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    float: left;
+}
+
+.footer__text {
+    color: #D7D7D7;
+}
+
+.footer__section-icon {
+    width: 132px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.footer__section-icon>i[class^="fa"] {
+    color: #D0D5DD;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.footer__section-icon>i[class^="fa"]:not(:first-child) {
+   padding-left: 18px;
+}
+
+/* Aside list*/
+.footer__aside {
+    width: 111px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+
+.footer__aside--list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_aside-list--active {
+    color: #FCFCFD;
+    font-size: 18px;
+}
