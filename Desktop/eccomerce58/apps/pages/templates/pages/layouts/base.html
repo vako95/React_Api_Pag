@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'pages/partials/head.html' %}
+</head>
+<body id="bg">
+    <div class="page-wraper">
+        {% include 'pages/partials/preloader.html' %}
+        {% include 'pages/partials/slider.html' %}
+
+        <header class="site-header mo-left header style-1 header-transparent">
+            {% include 'pages/partials/sticky_header.html' %}
+            {% include 'pages/partials/searchbar.html' %}
+            {% include 'pages/partials/sidebar.html' %}
+            {% include 'pages/partials/sidebar_finter.html' %}
+        </header>
+    </div>
+
+        <div class="page-content bg-light">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        {% include 'pages/partials/footer.html' %}
+        {% include 'pages/partials/scroll_button.html' %}
+        {% include 'pages/partials/modal.html' %}
+        {% include 'pages/partials/scripts.html' %}
+        
+</body>
+</html>
